@@ -1,0 +1,129 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(197, 225, 242, 0.2);
+  cursor: pointer;
+}
+.navbar-logo {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  color: rgba(255, 255, 255, 1);
+}
+.navbar-logo span {
+  color: lightseagreen;
+}
+.navbar-logo:hover {
+  transition: 1.5s;
+  background-image: linear-gradient(
+    to right top,
+    #0455cd,
+    #5358df,
+    #8259ed,
+    #ad56f8,
+    #d84fff
+  );
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  padding: 2rem;
+  margin-right: 10rem;
+  /* margin: 5px 40px 5px 40px; */
+}
+.navbar-link:hover {
+  transition: 1s;
+  background-image: linear-gradient(
+    to right top,
+    #0455cd,
+    #5358df,
+    #8259ed,
+    #ad56f8,
+    #d84fff
+  );
+  background-clip: text;
+  color: transparent;
+}
+.navbar-container-button {
+  margin: 1% 1% 0 0;
+}
+.navbar-button {
+  padding: 0.3rem 3rem;
+  font-size: 20px;
+  background-color: #3dd1e7;
+  border: 0 solid #e5e7eb;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+}
+.navbar-button:hover {
+  transition: 1s;
+  color: black;
+}
+.navbar-button:focus {
+  outline: 0;
+}
+
+.navbar-button:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fff;
+  bottom: 5px;
+  left: 5px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  transition: 0.5s;
+}
+
+.navbar-button:hover:after {
+  bottom: 1px;
+  left: 1px;
+}
+
+@media (max-width:1600px) {
+  .navbar-link {
+    margin-right: 6rem;
+  }
+}
+@media (max-width:1350px) {
+  .navbar-link {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width:1050px) {
+  .navbar-link {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 1160px) {
+  .navbar-button,
+  .navbar-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 930px) {
+  .navbar-button,
+  .navbar-link {
+    font-size: 10px;
+  }
+}

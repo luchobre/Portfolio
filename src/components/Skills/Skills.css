@@ -1,0 +1,87 @@
+.skills {
+    display: grid;
+    grid-template-rows: 20% 60% ;
+    height: 100vh;
+    /* border: 2px solid black; */
+    justify-content:center ;
+    align-items: center;
+}
+.Skills-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    /* border: 2px solid black; */
+}
+.Skills-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.Skills-top, .Skills-bottom{
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: -8% 0 -8% 0;
+    /* border: 2px solid black; */
+}
+.Skills-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 10%;
+    margin: 10%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+.html, .css, .js, .react, .mongo, .node {
+    border-radius: 50%;
+    padding: 5%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    font-size: 120px;
+}
+.counter {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.html {
+    background-color: #FFCE99 ;
+    color: #DA7100;
+}
+.css {
+    background-color: #A6A3F9 ;
+    color: #1B14D8;
+}
+.js {
+    background-color: #708181;
+    color: #FFFE00;
+}
+.react {
+    background-color: #A5F4F7 ;
+    color: #00EBEA;
+}
+.mongo {
+    background-color: #A3F996 ;
+    color: #118100;
+}
+.node {
+    background-color: #B2CFAE ;
+    color: #71D861;
+}
