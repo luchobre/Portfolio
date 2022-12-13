@@ -137,7 +137,7 @@ export const MobileIcon = styled.div`
     align-items: center;
     cursor: pointer;
     svg {
-      fill: #e07924;
+      fill: #fff;
       margin-right: 0.5rem;
     }
   }
