@@ -1,47 +1,47 @@
 .banner {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    /* border: 2px solid black; */
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  /* border: 2px solid black; */
 }
 .banner-container {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner-text {
-    font-size: 70px;
-    font-family: 'Poppins', sans-serif;
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .banner-text-1 {
-    font-size: 40px;
-    color: #FFFFFF;
+  font-size: 40px;
+  color: #ffffff;
 }
-.banner-text-2{
-    font-size: 100px;
-    margin: -5% 0 -5% 0;
+.banner-text-2 {
+  font-size: 100px;
+  margin: -5% 0 -5% 0;
 }
-.banner-text-3{
-    font-size: 30px;
-    color: #FFF;
+.banner-text-3 {
+  font-size: 30px;
+  color: #fff;
 }
 .banner-button {
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
@@ -74,24 +74,24 @@
 }
 
 @media (max-width: 1180px) {
-    .banner-text {
-        font-size: 55px;
-    }
+  .banner-text {
+    font-size: 55px;
+  }
 }
 
 @media (max-width: 980px) {
-    .banner-text {
-        font-size: 40px;
-    }
+  .banner-text {
+    font-size: 40px;
+  }
 }
 @media (max-width: 750px) {
-    .banner-text {
-        font-size: 20px;
-    }
+  .banner-text {
+    font-size: 20px;
+  }
 }
 @media (min-width: 768px) {
   .banner-button {
     font-size: 24px;
     min-width: 196px;
-}
+  }
 }

@@ -12,30 +12,47 @@ const Aboutme = () => {
         </div>
         <div className="container-info">
           <h3>MY INTRO</h3>
-          <h1>I am <span>Luciano. B</span></h1>
+          <h1>
+            I am <span>Luciano. B</span>
+          </h1>
           <h5>Junior Full Stack Developer based in Argentina</h5>
           <div className="info-text">
             <p>
               I design and develop services for customers of all sizes,
-              specializing in creating stylish, modern websites, web services and
-              online stores. My passion is to design digital user experiences
-              through the bold interface and meaningful interactions. Check out my
-              Portfolio.
+              specializing in creating stylish, modern websites, web services
+              and online stores. My passion is to design digital user
+              experiences through the bold interface and meaningful
+              interactions. Check out my Portfolio.
             </p>
             <p>I like work with new people. New people new Experiences.</p>
           </div>
           <div className="container-personal-information">
             <div className="container-1col">
-              <li>Birthday: <span>25 August 1992</span></li>
-              <li>Age: <span>30 years</span></li>
-              <li>Adress: <span>San carlos de Bariloche</span></li>
+              <li>
+                Birthday: <span>25 August 1992</span>
+              </li>
+              <li>
+                Age: <span>30 years</span>
+              </li>
+              <li>
+                Adress: <span>San carlos de Bariloche</span>
+              </li>
             </div>
             <div className="container-2col">
-              <li>Phone: <span>(+549) 11 5891 4320</span></li>
-              <li>Email: <span>lucho.bregoli@gmail.com</span></li>
-              <li>LinkedIn: <span></span></li>
+              <li>
+                Phone: <span>(+549) 11 5891 4320</span>
+              </li>
+              <li>
+                Email: <span>lucho.bregoli@gmail.com</span>
+              </li>
+              <li>
+                LinkedIn: <span></span>
+              </li>
             </div>
-          </div><a className="aboutme-button" href="www.google.com" target="_blank">DOWNLOAD CV</a>
+          </div>
+          <a className="aboutme-button" href="www.google.com" target="_blank">
+            DOWNLOAD CV
+          </a>
         </div>
       </div>
     </div>

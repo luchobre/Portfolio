@@ -1,131 +1,153 @@
 .skills {
-    display: grid;
-    grid-template-rows: 20% 60% ;
-    height: 100vh;
-    width: 100vw;
-    /* border: 2px solid white; */
-    justify-content:center ;
-    align-items: center;
+  display: grid;
+  grid-template-rows: 20% 60%;
+  height: 100vh;
+  width: 100vw;
+  /* border: 2px solid white; */
+  justify-content: center;
+  align-items: center;
 }
 .Skills-title {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
-    color: #fff;
-    /* border: 2px solid black; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  /* border: 2px solid black; */
 }
 .Skills-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
 }
 
-.Skills-1, .Skills-2, .Skills-3{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-    /* border: 2px solid black; */
+.Skills-1,
+.Skills-2,
+.Skills-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  /* border: 2px solid black; */
 }
 .Skills-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
-    padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  padding: 5%;
 }
 
-.html, .css, .js, .react, .mongo, .node {
-    border-radius: 50%;
-    padding: 5%;
-    margin: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 15rem;
-    width: 15rem;
-    font-size: 120px;
+.html,
+.css,
+.js,
+.react,
+.mongo,
+.node {
+  border-radius: 50%;
+  padding: 5%;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  font-size: 120px;
 }
 .counter {
-    color: #000;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 900;
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 .html {
-    background-color: #FFCE99 ;
-    color: #DA7100;
+  background-color: #ffce99;
+  color: #da7100;
 }
 .css {
-    background-color: #A6A3F9 ;
-    color: #1B14D8;
+  background-color: #a6a3f9;
+  color: #1b14d8;
 }
 .js {
-    background-color: #708181;
-    color: #FFFE00;
+  background-color: #708181;
+  color: #fffe00;
 }
 .react {
-    background-color: #A5F4F7 ;
-    color: #00EBEA;
+  background-color: #a5f4f7;
+  color: #00ebea;
 }
 .mongo {
-    background-color: #A3F996 ;
-    color: #118100;
+  background-color: #a3f996;
+  color: #118100;
 }
 .node {
-    background-color: #B2CFAE ;
-    color: #71D861;
+  background-color: #b2cfae;
+  color: #71d861;
 }
 
-@media (max-width:1170px){
-    .html, .css, .js, .react, .mongo, .node {
-        height: 10rem;
-        width: 10rem;
-        font-size: 80px;
-    }
-    .Skills-one {
-        font-size: 1.5rem ;
-    }
-    .counter {
-        font-size: 1.3rem;
-    }
+@media (max-width: 1170px) {
+  .html,
+  .css,
+  .js,
+  .react,
+  .mongo,
+  .node {
+    height: 10rem;
+    width: 10rem;
+    font-size: 80px;
+  }
+  .Skills-one {
+    font-size: 1.5rem;
+  }
+  .counter {
+    font-size: 1.3rem;
+  }
 }
 
-@media (max-width:775px){
-    .html, .css, .js, .react, .mongo, .node {
-        height: 6rem;
-        width: 6rem;
-        font-size: 50px;
-    }
-    .Skills-one {
-        font-size: 1.2rem ;
-        padding-bottom: 100%;
-    }
-    .counter {
-        font-size: 1rem;
-    }
+@media (max-width: 775px) {
+  .html,
+  .css,
+  .js,
+  .react,
+  .mongo,
+  .node {
+    height: 6rem;
+    width: 6rem;
+    font-size: 50px;
+  }
+  .Skills-one {
+    font-size: 1.2rem;
+    padding-bottom: 100%;
+  }
+  .counter {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width:360px) {
-    .html, .css, .js, .react, .mongo, .node {
-        height: 4rem;
-        width: 4rem;
-        font-size: 30px;
-    }
-    .Skills-one {
-        font-size: 1.2rem ;
-        padding: 0 0 0 0;
-    }
-    .counter {
-        font-size: 1rem;
-    }
+@media (max-width: 360px) {
+  .html,
+  .css,
+  .js,
+  .react,
+  .mongo,
+  .node {
+    height: 4rem;
+    width: 4rem;
+    font-size: 30px;
+  }
+  .Skills-one {
+    font-size: 1.2rem;
+    padding: 0 0 0 0;
+  }
+  .counter {
+    font-size: 1rem;
+  }
 }

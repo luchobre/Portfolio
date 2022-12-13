@@ -97,18 +97,18 @@
   left: 1px;
 }
 
-@media (max-width:1600px) {
+@media (max-width: 1600px) {
   .navbar-link {
     margin-right: 6rem;
   }
 }
-@media (max-width:1350px) {
+@media (max-width: 1350px) {
   .navbar-link {
     margin-right: 3rem;
   }
 }
 
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
   .navbar-link {
     margin-right: 1rem;
   }

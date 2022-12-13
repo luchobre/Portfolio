@@ -18,7 +18,7 @@ const Footer = () => {
             offset={-70}
             duration={500}
           >
-           <span className="link-1">Home</span>
+            <span className="link-1">Home</span>
           </Link>
           <Link
             activeClass="active"
@@ -38,7 +38,7 @@ const Footer = () => {
             offset={-70}
             duration={500}
           >
-             <span className="link-1">Projects</span>
+            <span className="link-1">Projects</span>
           </Link>
           <Link
             activeClass="active"
@@ -48,7 +48,7 @@ const Footer = () => {
             offset={-70}
             duration={500}
           >
-             <span className="link-1">Skills</span>
+            <span className="link-1">Skills</span>
           </Link>
           <Link
             activeClass="active"
@@ -58,8 +58,8 @@ const Footer = () => {
             offset={-70}
             duration={500}
           >
-             <span className="link-1">Contact</span>
-          </Link>   
+            <span className="link-1">Contact</span>
+          </Link>
         </p>
         <p className="footer-company-name">Company Name © 2015</p>
       </div>
@@ -93,11 +93,34 @@ const Footer = () => {
         </p>
 
         <div className="footer-icons">
-    
-          <a href="https://www.facebook.com/luchobregoli/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>      
-          <a href="https://www.instagram.com/luchobregoli/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://github.com/luchobre" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://twitter.com/luchobregoli" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a
+            href="https://www.facebook.com/luchobregoli/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookF />
+          </a>
+          <a
+            href="https://www.instagram.com/luchobregoli/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://github.com/luchobre"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://twitter.com/luchobregoli"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </a>
         </div>
       </div>
     </footer>
