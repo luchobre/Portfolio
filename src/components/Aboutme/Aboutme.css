@@ -10,7 +10,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 3rem;
   font-family: "Quicksand", sans-serif;
   color: #fff;
   /* border: 2px solid black; */
@@ -23,11 +23,21 @@
   margin: 0 0 0 20%;
   /* border: 2px solid black; */
 }
-.container-skills {
+.container-pic {
   color: #fff;
   height: 50%;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border: solid 2px black; */
+}
+.pic {
+  height: 65%;
+  width: 65%;
+  border-radius: 10%;
+  opacity: 0.6;
+  filter: blur(0.9px) brightness(1);
 }
 .container-info {
   display: flex;
@@ -116,11 +126,25 @@
     width: 100%;
     margin: 0 0 0 0;
   }
+  .pic {
+    display: none;
+  }
+  .container-info h1 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 875px) {
   .container-personal-information {
     display: grid;
     grid-template-columns: 2fr;
+  }
+}
+@media (max-height: 875px) {
+  .container-info {
+    font-size: 0.9rem;
+  }
+  .aboutme-button {
+    font-size: 0.6rem;
   }
 }
 
@@ -130,6 +154,17 @@
   }
   .aboutme {
     grid-template-rows: 15% 75%;
+  }
+}
+@media (max-height: 670px) {
+  .container-info {
+    font-size: 0.8rem;
+  }
+  .container-info h1 {
+    font-size: 25px;
+  }
+  .aboutme-button {
+    font-size: 0.8rem;
   }
 }
 

@@ -4,9 +4,6 @@
   border: 2px solid #181818;
   height: 100vh;
 }
-.Projects {
-  /* width: 70%; */
-}
 .Projects-title {
   display: flex;
   align-content: center;
@@ -41,7 +38,7 @@
 .arrow {
   position: absolute;
   cursor: pointer;
-  z-index: 1;
+  /* z-index: 1; */
   color: #fff;
   /* border: 2px solid white; */
 }
@@ -103,7 +100,7 @@
     width: 12rem;
   }
   .Projects-slider {
-    margin: 25% 0 0 0;
+    margin: 50% 0 0 0;
   }
   .next {
     right: 30%;
@@ -120,5 +117,11 @@
   .slide img {
     width: 8rem;
     margin: 0 auto;
+  }
+}
+
+@media (max-height: 780px) {
+  .Projects {
+    display: block;
   }
 }

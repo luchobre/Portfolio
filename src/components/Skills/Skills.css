@@ -149,3 +149,9 @@
     font-size: 1rem;
   }
 }
+
+@media (max-height:780px) {
+  .skills {
+    display: block;
+  }
+}

@@ -1,4 +1,5 @@
 import "../Aboutme/Aboutme.css";
+import me from './images/mypic.jpg';
 
 const Aboutme = () => {
   return (
@@ -7,8 +8,8 @@ const Aboutme = () => {
         <p>ABOUT ME</p>
       </div>
       <div className="container-aboutme">
-        <div className="container-skills">
-          <p>IMG</p>
+        <div className="container-pic">
+          <img src={me} className="pic"/>
         </div>
         <div className="container-info">
           <h3>MY INTRO</h3>

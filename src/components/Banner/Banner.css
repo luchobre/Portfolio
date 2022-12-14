@@ -85,8 +85,17 @@
   }
 }
 @media (max-width: 750px) {
-  .banner-text {
+  .banner-text-1 {
     font-size: 20px;
+  }
+  .banner-text-2 {
+    font-size: 60px;
+  }
+  .banner-text-3 {
+    font-size: 15px;
+  }
+  .banner-text {
+    margin-top: 20%;
   }
 }
 @media (min-width: 768px) {
