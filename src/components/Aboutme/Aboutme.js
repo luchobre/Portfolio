@@ -1,5 +1,6 @@
 import "../Aboutme/Aboutme.css";
 import me from './images/mypic.jpg';
+import cv from './docs/cv-luciano-bregoli.pdf'
 
 const Aboutme = () => {
   return (
@@ -47,11 +48,11 @@ const Aboutme = () => {
                 Email: <span>lucho.bregoli@gmail.com</span>
               </li>
               <li>
-                LinkedIn: <span></span>
+                LinkedIn: <span><a href="https://www.linkedin.com/in/luciano-bregoli-31a445102/" target="_blank">Luciano Brégoli</a></span>
               </li>
             </div>
           </div>
-          <a className="aboutme-button" href="www.google.com" target="_blank">
+          <a className="aboutme-button" href={cv} target="_blank">
             DOWNLOAD CV
           </a>
         </div>

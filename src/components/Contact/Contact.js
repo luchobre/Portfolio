@@ -78,10 +78,9 @@ const Contact = () => {
             </li>
           </ul>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            provident ipsam necessitatibus repellendus?
+            Contact me
           </p>
-          <p>Company.com</p>
+          <p>https://lucianobregoli.vercel.app/</p>
         </div>
       </div>
     </div>
