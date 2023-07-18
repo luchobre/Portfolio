@@ -34,7 +34,7 @@ const Skills = () => {
           <div className="Skills-one">
             <div className="react">
               <FaReact />
-              <CountUp end={50} duration={5} suffix=" %" className="counter" />
+              <CountUp end={30} duration={5} suffix=" %" className="counter" />
             </div>
             <div>
               <p>ReactJS</p>
@@ -43,7 +43,7 @@ const Skills = () => {
           <div className="Skills-one">
             <div className="mongo">
               <SiMongodb />
-              <CountUp end={30} duration={5} suffix=" %" className="counter" />
+              <CountUp end={20} duration={5} suffix=" %" className="counter" />
             </div>
             <div>
               <p>MongoDB</p>
